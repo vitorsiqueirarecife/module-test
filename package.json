@@ -1,0 +1,19 @@
+{
+  "name": "base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc && yarn jest ./src/__tests__/index.test.js",
+    "dev": "tsc && node ./anotherModule/index.js",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "typescript": "^5.6.3"
+  }
+}
